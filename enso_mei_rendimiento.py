@@ -27,6 +27,7 @@ def calc_year(valores):
     A partir de un array de strings de archivos de rendimientos
     de MAGYP crea un array de enteros con los años
     """
+    years = np.asarray([float(yr_a[0:4]) for yr_a in valores])
     return years
 
 
